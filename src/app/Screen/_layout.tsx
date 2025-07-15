@@ -3,7 +3,19 @@ import {Entypo} from "@expo/vector-icons";
 
 const ScreensLayout = ()=> {
     return (
-        <Tabs>
+        <Tabs screenOptions={{
+            tabBarActiveTintColor: "#f0a803",
+            headerShadowVisible: false,
+            headerStyle: {
+                backgroundColor: "#000",
+            },
+            headerTitleStyle: {
+              color: "#f0a803",
+            },
+           tabBarStyle: {
+               backgroundColor: 'black',
+           }
+        }}>
             <Tabs.Screen
             name="index"
             options={{
