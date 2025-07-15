@@ -11,6 +11,8 @@ const ScreensLayout = ()=> {
             },
             headerTitleStyle: {
               color: "#f0a803",
+                fontWeight: "bold",
+                textTransform: "uppercase",
             },
            tabBarStyle: {
                backgroundColor: 'black',

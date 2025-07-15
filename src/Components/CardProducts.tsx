@@ -11,7 +11,7 @@ const  CardProducts = ({item}:any) => {
             style={{ width: isFullWidth ? '100%' : '50%' }}
             className="flex justify-center p-2 pb-10"
         >
-            <View style={isFullWidth && {backgroundColor: '#f0a803'}} className="p-2 bg-white rounded-2xl shadow-sm">
+            <View style={isFullWidth && {backgroundColor: '#ecc468'}} className="p-2 bg-white rounded-2xl shadow-sm">
                 <View className="flex-1 items-center">
                     <Image
                         style={{ resizeMode: 'contain', width: isFullWidth ? '100%' : undefined }}

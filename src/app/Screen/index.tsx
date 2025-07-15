@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {fetchData} from "@/src/core/api/FechApi";
 import {IProducts} from "@/src/interfaces/products.interfaces";
 import CardProducts from "@/src/Components/CardProducts";
+import Filters from "@/src/Components/Filters";
 
 export  default function HomeProduct() {
 
@@ -19,6 +20,7 @@ export  default function HomeProduct() {
 
     return (
             <View style={{flex: 1}} className='p-2'>
+                <Filters />
                 <FlatList
                     data={products}
                     numColumns={2}
